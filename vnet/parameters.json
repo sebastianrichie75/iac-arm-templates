@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+   "vnetName":{
+        "value": "macro-life"
+      },
+       "vnetAddressPrefix":{
+        "value": "macro-life"
+      },
+      "subnet1Prefix":{
+        "value": "10.0.0.0/24"
+      },
+      "subnet1Name":{
+        "value": "sub-001"
+      },
+      "subnet2Prefix":{
+        "value": "10.0.1.0/24"
+      },
+       "subnet2Name":{
+        "value": "sub-002"
+      },
+  }
+}
