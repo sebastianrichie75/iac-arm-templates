@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "macrolifeadmin"
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "dnsLabelPrefix": {
+      "value": "macrolifewinvm"
+    },
+    "virtualNetworkName": {
+      "value": "macro-life-vnet"
+    },
+    "vnetResourceGroupName": {
+      "value": "macro-life-rgname"
+    },
+    "subnetName": {
+      "value": "sub-001"
+    }
+  }
+}
