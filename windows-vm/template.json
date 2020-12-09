@@ -84,7 +84,7 @@
     "storageAccountName": "[concat('bootdiags', uniquestring(resourceGroup().id))]",
     "nicName": "myVMNic",
     "vnetID" : "[resourceId(variables('vnetRgName'),'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
-    "vnetRgName" : parameters('vnetResourceGroupName'),
+    "vnetRgName" : "[parameters('vnetResourceGroupName')]",
     "subnetRef": "[concat(variables('vnetID'), /subnet/, parameters('subnetName'))]",
     "networkSecurityGroupName": "macro-life-NSG"
   },
