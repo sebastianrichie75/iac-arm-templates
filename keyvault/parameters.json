@@ -13,6 +13,9 @@
     },
     "secretValue": {
       "value": "yyyyyy"
+    },
+    "enabledForTemplateDeployment": {
+      "value": true,
     }
   }
 }
